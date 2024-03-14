@@ -51,9 +51,9 @@ $$
 
 这组切向量也是切空间$T\Omega$的一组基. 与之对偶的$1-$形式为$dz=dx+idy,d\bar{z}=dx-idy\in T^*{\Omega}$. 
 
-> **练习.** 证明Cauchy-Riemann方程(即解析性)等价于 $\frac{\partial}{\partial \bar{z}}f=0$.
+> **引理/练习.** 证明Cauchy-Riemann方程(即解析性)等价于 $\frac{\partial}{\partial \bar{z}}f=0$.
 
-对任意$\zeta\in\Omega$，取$r>0$使得圆盘$B(\zeta,r)\subset\subset \Omega$. 那么$\frac{1}{z-\zeta}$在$\Omega_r:=\Omega\setminus B(\zeta,r)$上解析. 利用Stokes定理，
+对任意$\zeta\in\Omega$，取$r>0$使得圆盘$B(\zeta,r)\subset\subset \Omega$. 那么$\frac{1}{z-\zeta}$在$\Omega_r:=\Omega\setminus B(\zeta,r)$上解析. 利用**Stokes定理**，
 
 $$
 \int_{\Omega_r}\frac{\partial}{\partial \bar{z}}g \ dz\wedge d\bar{z}=\int_{\partial \Omega_r} g \ dz.

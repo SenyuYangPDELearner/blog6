@@ -31,7 +31,7 @@ zoom: 1;
 # 复分析：Cauchy定理的一个优雅证明
 
 <font size="2" color="grey">发布于2024.3.14</font><br/>
-今天是国际数学日，先祝你 $\pi$ day 快乐！数学当然离不开优雅，*Beauty is the first test*(Hardy). 复分析应当属于数学中最优美的分支之一，本文介绍复分析的一个基本定理——Cauchy定理的一个灰常灰常优雅滴证明，来自分析大师L. Hörmander的*An Introduction to Complex Analysis in Several Variables*. 
+今天是国际数学日，先祝你 $\pi$ day 快乐！数学当然离不开优雅，*Beauty is the first test*(Hardy). 复分析是数学中最优美的分支之一，那么本文介绍复分析的基本定理——Cauchy定理的一个灰常灰常优雅滴几何风证明，来自分析大师L. Hörmander的*An Introduction to Complex Analysis in Several Variables*. 
 
 > **定理.**(Cauchy定理) 给定$\mathbb{C}$上的单连通区域$\Omega$，并有$C^1$边界$\partial \Omega$. 设$f\in C^{2}(\Omega)\cap C^{1}(\bar{\Omega})$并在$\Omega$上*解析*(也称*全纯*)，则
 >
@@ -49,7 +49,7 @@ $$
 \frac{\partial}{\partial \bar{z}}:=\frac{1}{2}(\frac{\partial}{\partial x}+i\frac{\partial}{\partial z})
 $$
 
-这组切向量也张成了切空间$T\Omega$. 与之对偶的$1-$形式为$dz=dx+idy,d\bar{z}=dx-idy\in T^*{\Omega}$. 
+这组切向量也是切空间$T\Omega$的一组基. 与之对偶的$1-$形式为$dz=dx+idy,d\bar{z}=dx-idy\in T^*{\Omega}$. 
 
 > **练习.** 证明Cauchy-Riemann方程(即解析性)等价于 $\frac{\partial}{\partial \bar{z}}f=0$.
 

@@ -69,7 +69,7 @@ $$
 =\int_{\partial\Omega} \frac{f}{z-\zeta} \ dz-i\int_{0}^{2\pi} f(\zeta+re^{i\theta}) \ d\theta.
 $$
 
-$f$解析，所以上式第一行恒为$0$. 令$r\to 0$，则最后一项收敛于$2\pi iu(\zeta)$，我们得到著名的*Cauchy积分公式*. 再将$f$替换为$(z-\zeta)f$就证明了Cauchy定理.&ensp;$\Box$
+$f$解析，所以上式第一行恒为$0$. 令$r\to 0$，则最后一项收敛于$2\pi if(\zeta)$，我们得到著名的*Cauchy积分公式*. 再将$f$替换为$(z-\zeta)f$就证明了Cauchy定理.&ensp;$\Box$
 
 *注*. 如果只要求$\partial \Omega$可求长，可以用一族$C^1$曲线从$\Omega$内部逼近$\partial \Omega$即可.
 
